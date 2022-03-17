@@ -17,7 +17,7 @@ export default Component3 = [
     },
     {
         key:'3',
-        uri:require('../Images/TopPick5.jpg'),
+        uri:require('../Images/TopPick1.jpeg'),
         url:require('../Images/TopPick7.jpeg'),
         text : "Pizza Mania",
         text1 : "Pizza Lover"

@@ -129,6 +129,19 @@ export default StyleSheet.create({
         alignItems:"center",
         marginTop:10
 
+    },
+    Footer:{
+        justifyContent:"space-around",
+        alignItems:"center",
+        // marginVertical:20,
+        flexDirection:'row',
+        borderTopWidth:0.2,
+        borderTopColor:"grey",
+        padding:15
+    },
+    FooterImg:{
+        width:25,
+        height:25
     }
     
 

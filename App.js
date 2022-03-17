@@ -18,6 +18,7 @@ import PopularCurations from './src/Screens/PopularCurations'
 import PopularBrands from './src/Screens/PopularBrands';
 import Instamart from './src/Screens/Instamart';
 import BrandCard from './src/Screens/BrandCard';
+import Footer from './src/Screens/Footer';
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
        
 
       </ScrollView>
+      <Footer/>
     </SafeAreaView>
 
   )

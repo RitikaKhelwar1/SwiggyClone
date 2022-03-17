@@ -4,9 +4,10 @@ import Styling from '../CSS/Styling'
 
 function header() {
   return (
-    <View>
-      <StatusBar barStyle='light-content'  ></StatusBar>
-    <View style={{flexDirection:'row',paddingHorizontal:10}}>
+   <View>
+      <StatusBar barStyle='dark-content' backgroundColor={"transparent"}  ></StatusBar>
+    <View style={{flexDirection:'row',paddingHorizontal:10,paddingBottom:15,borderBottomWidth:0.2,
+        borderBottomColor:"grey",}}>
       <View style={{ flex: 0.7 }}>
         <View style={{ flexDirection: 'row' }}>
           <Image source={require('../Images/location.png')} style={[Styling.headerLogo]} ></Image>
@@ -25,7 +26,7 @@ function header() {
 
     </View>
     </View>
-
+    
   )
 }
 
