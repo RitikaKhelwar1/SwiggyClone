@@ -17,7 +17,6 @@ import SubComponent3 from './src/Screens/SubComponent3';
 import PopularCurations from './src/Screens/PopularCurations'
 import PopularBrands from './src/Screens/PopularBrands';
 import Instamart from './src/Screens/Instamart';
-import BrandCard from './src/Screens/BrandCard';
 import Footer from './src/Screens/Footer';
 
 const App = () => {
